@@ -1,0 +1,2 @@
+#!/bin/bash
+water_dec=$(echo "ibase=water; $WATER" | bc)  stir_dec=$(echo "ibase=stir; $STIR" | bc) result_dec=$(($water_dec + $stir_dec))
